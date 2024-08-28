@@ -8,5 +8,4 @@ public class ApplicationDbContext : DbContext
         : base(options)
     {
     }
-
 }
