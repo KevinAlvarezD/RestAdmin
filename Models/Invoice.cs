@@ -13,19 +13,16 @@ public class Invoice
 {
     [Key]
     [Column("id_invoice")]
-    [MaxLength(11, ErrorMessage = "The field must be at most {1} character.")]
     public int IdInvoice { get; set; }
 
     [Column("id_order")]
-    [MaxLength(11, ErrorMessage = "The field must be at most {1} character.")]
     public int IdOrder { get; set; }
 
     [Column("date_invoice")]
-    [MaxLength(70, ErrorMessage = "The field must be at most {1} character.")]
+    [DataType(DataType.Date)]
     public DateTime DateInvoice { get; set; }
 
     [Column("total")]
-    [MaxLength(20, ErrorMessage = "The field must be at most {1} character.")]
     public double Total { get; set; }
 
 }
