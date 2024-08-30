@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RestAdmin.Models;
 
-namespace RestAdmin.Controllers
-{
+namespace RestAdmin.Controllers;
+
     [ApiController]
     [Route("api/[controller]")]
     public class InvoiceController : ControllerBase
@@ -108,4 +108,3 @@ namespace RestAdmin.Controllers
 
         
     }
-}
