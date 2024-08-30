@@ -12,6 +12,8 @@ public class ApplicationDbContext : DbContext
    public DbSet<Table> Tables { get; set; }
 
    public DbSet<Employee> Employees { get; set; }
+
+   public DbSet<Invoice> Invoices { get; set; }
    
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
