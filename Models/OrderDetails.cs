@@ -10,17 +10,17 @@ public class OrderDetails
     [Key]
     [Column("id")]
     public int Id { get; set; }
-    [Column("id_ordered")]
-    [MaxLength(11, ErrorMessage = "The Name field must be at most {1} characters.")]
+    
+    [Column("id_ordered")] 
     public int IdOrdered { get; set; }
-    [Column("id_product")]
-    [MaxLength(11, ErrorMessage = "The Name field must be at most {1} characters.")]
+
+    [Column("id_product")] 
     public int IdProduct { get; set; }
+
     [Column("quantity")]
-    [MaxLength(11, ErrorMessage = "The Name field must be at most {1} characters.")]
     public int Quantity { get; set; }
+
     [Column("unit_price")]
-    [MaxLength(11, ErrorMessage = "The Name field must be at most {1} characters.")]
     public double UnitPrice { get; set; }
 
 }
