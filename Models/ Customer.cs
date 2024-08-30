@@ -15,18 +15,18 @@ public class Customer
 
     [Column("name")]
     [MaxLength(50, ErrorMessage = "The field must be at most {1} character.")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     [Column("adress")]
     [MaxLength(50, ErrorMessage = "The field must be at most {1} character.")]
-    public string Address { get; set; }
+    public string? Address { get; set; }
 
     [Column("phone_number")]
     [MaxLength(50, ErrorMessage = "The field must be at most {1} character.")]
-    public string PhoneNumber { get; set; }
-    
+    public string? PhoneNumber { get; set; }
+
     [Column("email")]
     [MaxLength(50, ErrorMessage = "The field must be at most {1} character.")]
-    public string Email { get; set; }
+    public string? Email { get; set; }
 
 }
