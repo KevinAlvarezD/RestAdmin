@@ -13,6 +13,7 @@ public class Payment
     [Key]
     [Column("id")]
     public int IdPayment { get; set; }
+    
     [Column("id_invoice")]
     public int IdInvoice { get; set; }
     [Column("date_payment")]
