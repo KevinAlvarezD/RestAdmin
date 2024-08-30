@@ -11,5 +11,5 @@ public class Payment
     public int IdInvoice { get; set; }
     public DateTime DatePayment { get; set; }
     public double Amount { get; set; }
-    public string PaymentMethod { get; set; }
+    public string? PaymentMethod { get; set; }
 }
