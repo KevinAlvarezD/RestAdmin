@@ -12,10 +12,8 @@ public class Product
 {
     [Key]
     [Column("id")]
-    [MaxLength(11, ErrorMessage = "The field must be at most {1} character.")]
     public int Id { get; set; }
 
-    [Key]
     [Column("image_url")]
     [MaxLength(255, ErrorMessage = "The field must be at most {1} character.")]
     public string? ImageURL { get; set; }
@@ -29,7 +27,6 @@ public class Product
     public string? Description { get; set; }
 
     [Column("price")]
-    [MaxLength(20, ErrorMessage = "The field must be at most {1} character.")]
     public double Price { get; set; }
 
 }
