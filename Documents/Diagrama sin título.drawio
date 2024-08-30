@@ -162,7 +162,7 @@
         <mxCell id="iAmSxObT79D5jh0mBVo4-28" value="DatePayment : DataTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="iAmSxObT79D5jh0mBVo4-26" vertex="1">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="iAmSxObT79D5jh0mBVo4-29" value="Amount : decimal" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="iAmSxObT79D5jh0mBVo4-26" vertex="1">
+        <mxCell id="iAmSxObT79D5jh0mBVo4-29" value="Amount : double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="iAmSxObT79D5jh0mBVo4-26" vertex="1">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="iAmSxObT79D5jh0mBVo4-30" value="PaymentMethod : string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="iAmSxObT79D5jh0mBVo4-26" vertex="1">
@@ -667,7 +667,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WZqbedrH0RygGJL2g9T0-26" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;amount : decimal&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="WZqbedrH0RygGJL2g9T0-24" vertex="1">
+        <mxCell id="WZqbedrH0RygGJL2g9T0-26" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;amount :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;double&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="WZqbedrH0RygGJL2g9T0-24" vertex="1">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
