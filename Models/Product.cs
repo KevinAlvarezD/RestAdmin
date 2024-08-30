@@ -15,7 +15,6 @@ public class Product
     [MaxLength(11, ErrorMessage = "The field must be at most {1} character.")]
     public int Id { get; set; }
 
-    [Key]
     [Column("image_url")]
     [MaxLength(255, ErrorMessage = "The field must be at most {1} character.")]
     public string? ImageURL { get; set; }
