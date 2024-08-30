@@ -16,10 +16,10 @@ public class Employee
     public int Id { get; set; }
     [Column("name")]
     [MaxLength(255, ErrorMessage = "The Name field must be at most {1} characters.")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
     [Column("role")]
     [MaxLength(255, ErrorMessage = "The Role field must be at most {1} characters.")]
-    public string Role { get; set; }
+    public string? Role { get; set; }
     [Column("schedule")]
     [DataType(DataType.Date)]
     public DateTime Schedule { get; set;}

@@ -18,9 +18,9 @@ public class Administrator
     public string Name { get; set; }
     [Column("username")]
     [MaxLength(50, ErrorMessage = "The Username field must be at most {1} characters.")]
-    public string UserName { get; set; }
+    public string? UserName { get; set; }
     [Column("password")]
     [MaxLength(255, ErrorMessage = "The Password field must be at most {1} characters.")]
-    public string Password { get; set; }
+    public string? Password { get; set; }
 
 }
