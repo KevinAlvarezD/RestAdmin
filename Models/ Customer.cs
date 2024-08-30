@@ -11,13 +11,14 @@ namespace RestAdmin.Models;
 public class Customer
 {
     [Key]
+    [Column("id")]
     public int Id { get; set; }
 
     [Column("name")]
     [MaxLength(50, ErrorMessage = "The field must be at most {1} character.")]
     public string? Name { get; set; }
 
-    [Column("adress")]
+    [Column("address")]
     [MaxLength(50, ErrorMessage = "The field must be at most {1} character.")]
     public string? Address { get; set; }
 
